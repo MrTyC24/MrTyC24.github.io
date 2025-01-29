@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyler Cruz - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white py-6">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl font-bold">Tyler Cruz</h1>
+            <p class="text-lg">Engineer | Innovator | Explorer</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-12 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">About Me</h2>
+            <p class="text-gray-700 text-lg leading-relaxed">
+                Hi, I'm Tyler Cruz! I have been involved with Space Enterprise at Berkeley for the past two years, managing and administering the manufacturing subteam. My passion lies in engineering projects like cruise control systems, 3D quadcopter estimators, and aviation dynamics. Welcome to my portfolio!
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-12 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold mb-2">Cruise Control System</h3>
+                    <p class="text-gray-700">Developed a cruise control system model incorporating proportional control, disturbances, and road grade factors.</p>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold mb-2">Quadcopter 3D Estimator</h3>
+                    <p class="text-gray-700">Built an estimator for a quadcopter to improve navigation and control in 3D space.</p>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold mb-2">Aircraft Center of Gravity</h3>
+                    <p class="text-gray-700">Analyzed the center of gravity envelope for an Embraer E195-E2 regional airliner, optimizing weight distribution and aerodynamics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Contact Me</h2>
+            <p class="text-gray-700 mb-4">Feel free to reach out for collaboration or inquiries!</p>
+            <form action="https://formspree.io/f/your-form-id" method="POST" class="space-y-4">
+                <div>
+                    <label for="name" class="block text-gray-700">Name</label>
+                    <input type="text" id="name" name="name" class="w-full border border-gray-300 rounded-lg p-2" required>
+                </div>
+                <div>
+                    <label for="email" class="block text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" class="w-full border border-gray-300 rounded-lg p-2" required>
+                </div>
+                <div>
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" name="message" class="w-full border border-gray-300 rounded-lg p-2" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded-lg">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 Tyler Cruz. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
